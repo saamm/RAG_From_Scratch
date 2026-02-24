@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 load_dotenv()
 
-persistent_directory = "db/chroma_db"
+persistent_directory = "db/chroma_db" # Vector storage
 
 # Load embeddings and vector store
 embedding_model = OpenAIEmbeddings(model="text-embedding-3-small")
